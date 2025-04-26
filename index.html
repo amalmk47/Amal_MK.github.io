@@ -1,143 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Amal M K - Portfolio</title>
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
-  <style>
-    .project-container {
-      text-align: center;
-    }
-    .project {
-      display: inline-block;
-      text-align: left;
-      max-width: 800px;
-      margin: 20px 0;
-    }
-  </style>
-</head>
-<body>
-  <header class="sticky">
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#testing-projects">Testing Projects</a></li>
-      <li><a href="#mtech-projects">MTech Projects</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </header>
+<!-- Testing Projects Section -->
+<section id="testing-projects">
+  <h2 class="heading" style="text-align: center;">Testing Projects</h2>
 
-  <section class="lead" id="lead">
-    <h1 style="color: white; font-size: 48px; text-align: left;">AMALMK</h1>
-    <h2 style="color: white; font-size: 24px; text-align: left;">
-      M.Tech in Data Science | AI & Deep Learning Enthusiast<br>
-      Software Test Engineer (Trained Fresher)
-    </h2>
-    <a href="Amal_MK.pdf" class="btn-rounded-white" download>Download Resume</a>
-  </section>
-
-  <section id="about">
-    <h2 class="heading">About Me</h2>
-    <p>I'm a data science graduate passionate about deep learning, natural language processing, and AI-powered solutions. I love solving real-world problems through machine learning models and data-driven insights.</p>
-  </section>
-
-  <section id="education">
-    <h2 class="heading">Education</h2>
-    <div class="education-block">
-      <h3>Amrita Vishwa Vidyapeetham, Coimbatore</h3>
-      <span class="education-date">2023 – 2025</span>
-      <h4>M.Tech in Data Science</h4>
-      <p>CGPA: 6.88</p>
+  <div class="project no-image">
+    <div class="project-info">
+      <h3>BANK IFSC CODE Application</h3>
+      <p>This application is used for identifying bank details by entering the IFSC Code.</p>
+      <ul>
+        <li>Analyzed UI document</li>
+        <li>Prepared Test Scenarios and Test Cases</li>
+        <li>Reviewed Test Cases</li>
+        <li>Prepared RTM (Requirements Traceability Matrix)</li>
+        <li>Executed Test Cases</li>
+        <li>Prepared Test Report</li>
+        <li>Prepared Bug Report</li>
+      </ul>
     </div>
-    <div class="education-block">
-      <h3>Toch Institute of Science and Technology</h3>
-      <span class="education-date">2018 – 2022</span>
-      <h4>B.Tech in Computer Science</h4>
-      <p>CGPA: 6.32</p>
+  </div>
+
+  <div class="project no-image">
+    <div class="project-info">
+      <h3>TMCART Ecommerce Web Application</h3>
+      <p>This is a web application under the Ecommerce domain, with three modules: Admin, User, and Vendor.</p>
+      <ul>
+        <li>Analyzed SRS document</li>
+        <li>Prepared Test Scenarios and Test Cases</li>
+        <li>Reviewed Test Cases</li>
+        <li>Prepared RTM (Requirements Traceability Matrix)</li>
+        <li>Executed Test Cases</li>
+        <li>Prepared Test Report</li>
+        <li>Prepared Bug Report</li>
+      </ul>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="testing-projects" class="project-container">
-    <h2 class="heading">Testing Projects</h2>
+<!-- MTech Projects Section -->
+<section id="mtech-projects">
+  <h2 class="heading" style="text-align: center;">MTech Projects</h2>
 
-    <div class="project">
-      <div class="project-info">
-        <h3>BANK IFSC CODE Application</h3>
-        <p>This application is used for identifying bank details by entering the IFSC Code.</p>
-        <ul>
-          <li>Analyzed UI document</li>
-          <li>Prepared Test Scenarios and Test Cases</li>
-          <li>Reviewed Test Cases</li>
-          <li>Prepared RTM (Requirements Traceability Matrix)</li>
-          <li>Executed Test Cases</li>
-          <li>Prepared Test Report</li>
-          <li>Prepared Bug Report</li>
-        </ul>
-      </div>
+  <div class="project no-image">
+    <div class="project-info">
+      <h3>Bilingual Image Captioning in English and Malayalam Using Convolutional Neural Networks and Large Language Model</h3>
+      <p>Developed a bilingual image captioning system that generates descriptive sentences in both English and Malayalam using deep learning. Utilized a ResNet-18 encoder to extract image features and a Transformer decoder for language generation. The dataset used was Malayalam Visual Genome 1.0, consisting of over 29,000 images annotated in both languages. Applied greedy decoding for inference, and trained the model using CrossEntropy loss while optimizing with the Adam optimizer. Performance was rigorously evaluated using BLEU, METEOR, and ROUGE-L scores, demonstrating the model’s effectiveness in capturing multilingual semantics. This project showcases the integration of computer vision and NLP in a multilingual setting.</p>
     </div>
+  </div>
 
-    <div class="project">
-      <div class="project-info">
-        <h3>TMCART Ecommerce Web Application</h3>
-        <p>This is a web application under the Ecommerce domain, with three modules: Admin, User, and Vendor.</p>
-        <ul>
-          <li>Analyzed SRS document</li>
-          <li>Prepared Test Scenarios and Test Cases</li>
-          <li>Reviewed Test Cases</li>
-          <li>Prepared RTM (Requirements Traceability Matrix)</li>
-          <li>Executed Test Cases</li>
-          <li>Prepared Test Report</li>
-          <li>Prepared Bug Report</li>
-        </ul>
-      </div>
+  <div class="project no-image">
+    <div class="project-info">
+      <h3>Predicting Electric Vehicle Energy Consumption using TabTransformer, TabNet, and BERT-Enhanced Models</h3>
+      <p>Built advanced predictive models to forecast electric vehicle (EV) energy consumption using deep learning and hybrid feature engineering techniques. Implemented TabTransformer and TabNet architectures for handling structured tabular data, incorporating BERT embeddings for text features. Performed Bayesian Optimization with Optuna to fine-tune model hyperparameters and reduce Mean Absolute Error (MAE) to 0.38. Achieved a 20% boost in prediction accuracy through LightGBM modeling and unsupervised clustering techniques. This project emphasizes scalable green-tech solutions in data-driven energy efficiency, focusing on the intersection of NLP, deep learning, and sustainability.</p>
     </div>
-  </section>
-
-  <section id="mtech-projects" class="project-container">
-    <h2 class="heading">MTech Projects</h2>
-
-    <div class="project">
-      <div class="project-info">
-        <h3>Bilingual Image Captioning in English and Malayalam Using Convolutional Neural Networks and Large Language Model</h3>
-        <p>Developed a bilingual image captioning system that generates descriptive sentences in both English and Malayalam using deep learning. Utilized a ResNet-18 encoder to extract image features and a Transformer decoder for language generation. The dataset used was Malayalam Visual Genome 1.0, consisting of over 29,000 images annotated in both languages. Applied greedy decoding for inference, and trained the model using CrossEntropy loss while optimizing with the Adam optimizer. Performance was rigorously evaluated using BLEU, METEOR, and ROUGE-L scores, demonstrating the model’s effectiveness in capturing multilingual semantics. This project showcases the integration of computer vision and NLP in a multilingual setting.</p>
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="project-info">
-        <h3>Predicting Electric Vehicle Energy Consumption using TabTransformer, TabNet, and BERT-Enhanced Models</h3>
-        <p>Built advanced predictive models to forecast electric vehicle (EV) energy consumption using deep learning and hybrid feature engineering techniques. Implemented TabTransformer and TabNet architectures for handling structured tabular data, incorporating BERT embeddings for text features. Performed Bayesian Optimization with Optuna to fine-tune model hyperparameters and reduce Mean Absolute Error (MAE) to 0.38. Achieved a 20% boost in prediction accuracy through LightGBM modeling and unsupervised clustering techniques. This project emphasizes scalable green-tech solutions in data-driven energy efficiency, focusing on the intersection of NLP, deep learning, and sustainability.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="skills">
-    <h2 class="heading">Skills</h2>
-    <ul>
-      <li>Python</li>
-      <li>PyTorch</li>
-      <li>TensorFlow</li>
-      <li>Scikit-learn</li>
-      <li>OpenCV</li>
-      <li>Tableau</li>
-      <li>Natural Language Processing</li>
-      <li>Deep Learning</li>
-      <li>Time Management</li>
-      <li>Problem Solving</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2 class="heading">Contact</h2>
-    <p>Email: <a href="mailto:amalmk47@gmail.com">amalmk47@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/amal-m-k-612034362/">AMAL M K-Linkedin</a></p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Amal M K</p>
-  </footer>
-</body>
-</html>
+  </div>
+</section>
